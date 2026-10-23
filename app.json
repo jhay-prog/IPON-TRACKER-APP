@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Ipon",
+    "slug": "ipon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ipon.savings"
+    },
+    "android": {
+      "package": "com.ipon.savings",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0B0D10"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f1f06ed8-1907-4554-8802-76c37b0ae7e7"
+      }
+    }
+  }
+}
